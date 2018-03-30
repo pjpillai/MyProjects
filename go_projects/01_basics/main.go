@@ -1,7 +1,6 @@
-pacakge main
-
+package main
 
 func main() {
 
-	println("Hello")
+	println("Hello World!")
 }

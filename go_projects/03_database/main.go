@@ -1,5 +1,4 @@
-pacakge main
-
+package main
 
 func main() {
 
