@@ -59,7 +59,7 @@ func DeletePerson(person *model.Person) bool {
 
 // init ...
 func init() {
-	people = append(people, model.Person{ID: "1", Firstname: "John", Lastname: "Doe", Address: &model.Address{City: "Irvine", State: "CA"}})
-	people = append(people, model.Person{ID: "2", Firstname: "Jane", Lastname: "Doe", Address: &model.Address{City: "Newyork", State: "NY"}})
-	people = append(people, model.Person{ID: "3", Firstname: "Jason", Lastname: "Doe", Address: &model.Address{City: "Seatle", State: "WA"}})
+	people = append(people, model.Person{ID: "1", Firstname: "John", Lastname: "Doe", Address: &model.Address{City: "Tustin", State: "CA"}})
+	people = append(people, model.Person{ID: "2", Firstname: "Jane", Lastname: "Doe", Address: &model.Address{City: "New York", State: "NY"}})
+	people = append(people, model.Person{ID: "3", Firstname: "Jason", Lastname: "Doe", Address: &model.Address{City: "Seattle", State: "WA"}})
 }
